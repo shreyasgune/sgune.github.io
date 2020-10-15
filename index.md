@@ -3,7 +3,6 @@
 ## about me
 engineer. musician. more.
 
-<br>
 
 ### Contact Me
 [<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"/></svg>](https://www.linkedin.com/in/shreyasgune/) [<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.021 17.824c-3.907 0-6.021-2.438-6.021-5.586 0-3.363 2.381-6.062 6.638-6.062 3.107 0 5.362 2.019 5.362 4.801 0 4.356-5.165 5.506-4.906 3.021-.354.555-.927 1.177-2.026 1.177-1.257 0-2.04-.92-2.04-2.403 0-2.222 1.461-4.1 3.19-4.1.829 0 1.399.438 1.638 1.11l.232-.816h1.169c-.122.416-1.161 4.264-1.161 4.264-.323 1.333.675 1.356 1.562.648 1.665-1.29 1.75-4.664-.499-6.071-2.411-1.445-7.897-.551-7.897 4.347 0 2.806 1.976 4.691 4.914 4.691 1.719 0 2.771-.465 3.648-.974l.588.849c-.856.482-2.231 1.104-4.391 1.104zm-1.172-7.153c-.357.67-.588 1.538-.588 2.212 0 1.805 1.761 1.816 2.626.12.356-.697.586-1.586.586-2.265 0-1.458-1.748-1.717-2.624-.067z"/></svg>](sgune@pm.me) 
@@ -34,9 +33,9 @@ engineer. musician. more.
 ### [Open Policy Agent Lab](https://github.com/shreyasgune/OPA-Lab/tree/gangnam-style)
 ### [Terraform Snippets](https://github.com/shreyasgune/terraform-snippets)
 ### [dnsmasq in Docker](https://github.com/shreyasgune/dnsmasq-docker)
-### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) (needs 2020 update)
-### 
+### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) (needs 2020 update) 
 ---
+
 ## Kubernetes
 
 ### [Kubernetes Deployment](https://github.com/shreyasgune/kubernetes-deployment)
@@ -45,6 +44,7 @@ engineer. musician. more.
 ### [Cert Manager](https://github.com/shreyasgune/sgune-cert-manager)
 ### [Canary Deployments](https://github.com/shreyasgune/k8-canary)
 ---
+
 ## Dev, Libraries and Helpers
 ### [NS1 Go Library](https://github.com/shreyasgune/NS1-examples/tree/primary)
 ### [gcp-Datastore](https://github.com/shreyasgune/gcp-datastore)
@@ -54,6 +54,7 @@ engineer. musician. more.
 ### [Rick and Morty AIY Voicekit Project](https://github.com/shreyasgune/RickSounds)
 ### [PyScripts for MS Excel](https://github.com/shreyasgune/fitter-happier-excel)
 ---
+
 ## Networking Experiments
 ### [OpenStack Lab](https://github.com/shreyasgune/OpenStack-Topo-Deployment)
 ### [Network Simulations](https://github.com/shreyasgune/network-simulations)
