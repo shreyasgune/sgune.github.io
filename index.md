@@ -12,6 +12,8 @@ email: sgune@pm.me
 
 [linkedin](https://www.linkedin.com/in/shreyasgune/)
 
+[Resume](sgune_2020_autumn.pdf)
+
 <br>
 
 ---
