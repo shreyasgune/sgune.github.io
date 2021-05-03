@@ -5,7 +5,7 @@
 ---
 
 ## Shreyas Gune
-### site reliability engineer
+### Senior Site Reliability Engineer
 ---
 ### Contact Me
 [<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg>email: sgune@pm.me](mailto:sgune@pm.me)
@@ -18,6 +18,11 @@
 
 ---
 # Site Reliability Engineering
+### [SLO Worksheet](SLO_Worksheet.docx)
+### [Postmortem Overviews](post-mortem-overview.pdf)
+### Futurestack 2019
+ - [Slides](https://drive.google.com/file/d/1UXyxhvGFfS6nuh8u4dn5nu5bkD64svPK/view)
+ - [Demo Video](https://youtu.be/1iXjx2NOBJY)
 
 ## Service Mesh
 ### [Istio Lab](https://github.com/shreyasgune/istio-lab)
@@ -26,6 +31,7 @@
 ## Monitoring, Logs and Alerting
 ### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
 ### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana)
+### [Install Logging Agent](install-logging-agent.md)
 
 ## Distributed Systems
 ### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
@@ -41,10 +47,11 @@
 
 ## CI/CD
 ### [Git-CI](https://github.com/shreyasgune/git-ci)
-### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) (needs 2020 update) 
+### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) (needs 2021 update) 
 
 
 ## Kubernetes
+### [Kubernetes Blue-Green](https://github.com/shreyasgune/k8-blue-green)
 ### [Kubernetes Deployment](https://github.com/shreyasgune/kubernetes-deployment)
 ### [Skaffold Demo](https://github.com/shreyasgune/skaffold-demo)
 ### [Kubernetes Cron](https://github.com/shreyasgune/kubecron-example)
