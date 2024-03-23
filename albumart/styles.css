@@ -21,7 +21,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh; /* Use 100% viewport height */
+    /* height: 100%; */
 }
 
 .image-box {
@@ -29,7 +30,8 @@ p {
     /*height: 782px; /*Doubled height */
     width: 1256px; /* Doubled width */
     max-width: 100%;
-    height: 930px; /* Doubled height */
+    /* height: 930px; Doubled height */
+    height: auto;
     border: 2px solid #333;
     border-radius: 20px; /* Add border radius for smoother edges */
     overflow: hidden;
@@ -56,6 +58,8 @@ p {
     font-size: 16px;
     cursor: pointer;
     margin-top: 10px;
+    margin-right: 10px; /* Add space after the buttons */
+    margin-bottom: 10px;
 }
 
     /* Special container for the paragraph content */
@@ -65,8 +69,9 @@ p {
     background-color: #f0f0f0;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 2px;
+    top: 2px;
+    border-radius: 2px;
     margin: 0 auto; /* Center the container horizontally */
     max-width: 900px;
     max-height: fit-content;
@@ -98,7 +103,25 @@ p {
     /* Adjust font size for smaller screens */
 @media only screen and (max-width: 600px) {
     p {
-        font-size: 0.8em; /* Decrease font size for smaller screens */
+        font-size: 0.5em; /* Decrease font size for smaller screens */
+    }
+    .special-container {
+        max-width: 50%; /* Adjust as needed for smaller screens */
+        max-height: 50%;
+    }
+
+    .container {
+        padding: 0 20px; /* Add some horizontal padding */
+    }
+
+    .image-box {
+        width: 100%; /* Take up full width */
+        max-width: 100%; /* Adjust maximum width */
+        height: auto; /* Allow height to adjust accordingly */
+        border-radius: 10px; /* Adjust border radius */
+        bottom: -20px; /* Adjust positioning */
+        left: 0;
+        top: 0;
     }
 }
 
