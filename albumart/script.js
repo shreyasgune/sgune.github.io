@@ -79,7 +79,7 @@ const images = [
 
 function showImage(index) {
     const imageDisplay = document.getElementById('image-display');
-    imageDisplay.src = 'images/' + images[index];
+    imageDisplay.src = 'new_images/' + images[index];
 }
 
 function prevImage() {

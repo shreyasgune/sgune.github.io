@@ -3,7 +3,18 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: sans-serif, Optima;
+    background-color: black; /* Set background color of the body to black */
 }
+
+/* Make text scale according to device size */
+p {
+    font-size: 1em; /* Base font size */
+    line-height: 1.5; /* Line height for better readability */
+    margin: 0; /* Remove default margin */
+    color: black /* Set text color to white */
+}
+
 
 .container {
     display: flex;
@@ -13,18 +24,12 @@ body, html {
     height: 100%;
 }
 
-.background {
-    width: 1256px; /* Doubled width */
-    height: 930px; /* Doubled height */
-    position: absolute;
-    background-image: url('vinyl.png');
-    background-size: cover;
-    z-index: -1;
-}
-
 .image-box {
-    width: 787px; /* Doubled width */
-    height: 782px; /* Doubled height */
+    /* width: 787px; /* Doubled width */
+    /*height: 782px; /*Doubled height */
+    width: 1256px; /* Doubled width */
+    max-width: 100%;
+    height: 930px; /* Doubled height */
     border: 2px solid #333;
     border-radius: 20px; /* Add border radius for smoother edges */
     overflow: hidden;
@@ -53,12 +58,30 @@ body, html {
     margin-top: 10px;
 }
 
+    /* Special container for the paragraph content */
+.special-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto; /* Center the container horizontally */
+    max-width: 900px;
+    max-height: fit-content;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+    /* Adjust font size for smaller screens */
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 0.8em; /* Decrease font size for smaller screens */
+    }
+}
+
 /* Media queries for scaling down */
 @media only screen and (max-width: 1256px) {
-    .background {
-        width: 100vw; /* Scale background to full viewport width */
-        height: auto; /* Allow height to adjust proportionally */
-    }
     .image-box {
         width: 80vw; /* Scale image-box to 80% of viewport width */
         height: auto; /* Allow height to adjust proportionally */
@@ -76,12 +99,8 @@ body, html {
 
 /* Media queries for scaling up */
 @media only screen and (min-width: 1600px) {
-    .background {
-        width: 1600px; /* Scale background to 1600px */
-        height: 1200px; /* Scale height proportionally */
-    }
     .image-box {
-        width: 1000px; /* Scale image-box to 1000px */
+        width: 1200px; /* Scale image-box to 1000px */
         height: 1000px; /* Scale height proportionally */
         border-radius: 20px; /* Maintain border-radius */
         bottom: -60px; /* Maintain bottom position */
