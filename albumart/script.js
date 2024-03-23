@@ -77,27 +77,43 @@ const images = [
     'IMG_20231219_164807_613_cropped.jpg'
 ];
 
+let isChangingImage = false;
+
 function showImage(index) {
     const imageDisplay = document.getElementById('image-display');
-    imageDisplay.style.opacity = 0; // Set opacity to 0 initially
-    imageDisplay.src = 'new_images/' + images[index];
+    imageDisplay.style.opacity = 0; // Fade out the image
     setTimeout(() => {
-        imageDisplay.style.opacity = 1; // Fade in the image after setting the src
-    }, 500); // You can adjust the delay as needed
+        imageDisplay.src = ''; // Clear the image source
+        setTimeout(() => {
+            imageDisplay.src = 'new_images/' + images[index]; // Set the new image source
+            setTimeout(() => {
+                imageDisplay.style.opacity = 1; // Fade in the new image
+            }, 10); // Adjust the delay for fading in the new image
+        }, 500); // Adjust the delay for clearing the image source
+    }, 500); // Adjust the delay for fading out the old image
 }
 
 function prevImage() {
-    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-    showImage(currentImageIndex);
+    if (!isChangingImage) {
+        isChangingImage = true;
+        setTimeout(() => {
+            isChangingImage = false;
+        }, 200); // Adjust the delay between image changes
+        currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+        showImage(currentImageIndex);
+    }
 }
 
 function nextImage() {
-    currentImageIndex = (currentImageIndex + 1) % images.length;
-    showImage(currentImageIndex);
+    if (!isChangingImage) {
+        isChangingImage = true;
+        setTimeout(() => {
+            isChangingImage = false;
+        }, 200); // Adjust the delay between image changes
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        showImage(currentImageIndex);
+    }
 }
 
 // Show the first image initially
 showImage(currentImageIndex);
-
-
-
