@@ -73,6 +73,28 @@ p {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+#image-display {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+@keyframes slideFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
     /* Adjust font size for smaller screens */
 @media only screen and (max-width: 600px) {
     p {

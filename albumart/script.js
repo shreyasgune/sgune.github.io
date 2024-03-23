@@ -79,7 +79,11 @@ const images = [
 
 function showImage(index) {
     const imageDisplay = document.getElementById('image-display');
+    imageDisplay.style.opacity = 0; // Set opacity to 0 initially
     imageDisplay.src = 'new_images/' + images[index];
+    setTimeout(() => {
+        imageDisplay.style.opacity = 1; // Fade in the image after setting the src
+    }, 500); // You can adjust the delay as needed
 }
 
 function prevImage() {
