@@ -9,6 +9,8 @@
 
 ### What I do.
 <details><summary></summary>
+
+```
 I work on making games run cheaper, better and smoother.
 
 - Service-Level Objectives (SLI, SLO, SLA, Error Budget, Burn Rate)
@@ -65,15 +67,15 @@ Outlook:
 - Integrating monitoring and logging with systems to improve observability
 - Enable Service-Level Objectives
 - Designing and completing stress tests to validate scale expectations vs reality
-
+```
 
 </details>
 
 ### SLOs and SLIs : How do I go about it?
 <details><summary></summary>
 
+```
 - I sit down with stakeholders, come up with statements for the critical things they care about.
-
 - We translate those critical paths into SLIs, by identifying metrics that matter.
 - Get priority and firm handshakes on adding the metrics and other code needed in place to measure these SLIs.
 - We negotiate SLO targets with the team, so that once the SLIs are in place, we can create rules and alerts for them.
@@ -99,12 +101,15 @@ This metric is located in : (dataset/monitoring-platform) and is sourced from (c
 This metric triggers an alert if the value is over/under X by (some threshold value) for (some amount of time)
 
 This alert is configured at : (location of the alert based on system)
+```
+
 </details>
 
 ### How do I write my JIRA tickets?
 
 <details><summary></summary>
 
+```
 ### Value Statement
 - As an SRE, I would like do X. 
 - This allows our team/stakeholder to do Y 
@@ -120,11 +125,13 @@ This alert is configured at : (location of the alert based on system)
 ### Stakeholders:
 ### Due Date:
 ### Definition of Done: Acceptance Criteria
+```
 
 </details>
 
 
 ---
+
 ### Contact Me
 [<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg> sgune@protonmail.com](mailto:sgune@protonmail.com)
 
