@@ -7,7 +7,122 @@
 # Shreyas Gune
 #### Senior Site Reliability Engineer
 
-[boopablesnoot album art](albumart/index.html)<sup style="color: green;font-size: 12px;">NEW!</sup>
+### What I do.
+<details><summary></summary>
+I work on making games run cheaper, better and smoother.
+
+- Service-Level Objectives (SLI, SLO, SLA, Error Budget, Burn Rate)
+- Distributed Systems (architectures, hybrid environments, high-availability)
+- Configuration Management (Puppet, Hiera, Terraform, Ansible)
+- Container Computing (Docker, Kubernetes)
+- Cloud Services and Architecture (AWS, GCP, OpenStack)
+- Distributed Message Bus (RabbitMQ, Pulsar)
+- Proxies and Load Balancing
+- Monitoring (Prometheus, Kibana, Grafana, Elasticsearch)
+- Logging (Splunk, SysLog, ELK Stack, Linux Journal)
+- Source Control (GitHub Enterprise, Perforce)
+- CI/CD (Jenkins, Argo, Github Actions, Atlantis)
+- Linux (bash, debugging, performance tuning)
+- Networking (triaging, packet loss, routing)
+- Programming (Language Agnostic)
+
+Practices:
+
+- cultivating broad familiarity with all areas of expertise and specialized expertise relevant areas.
+- follwoing technology trends and industry standards passionately.
+- finding joy in communicating ideas and technology to a broad audience in a clear and effective way
+- building strong relationships with their partner teams
+- eager to help others achieve their goals
+- co-owning operations and reliability with the partner team
+- demonstrating deep understanding of the services I support and associated goals
+- exploring new technologies with demos/experiments/labs
+- breaking down sophisticated work into small units of work for myself or others
+- be part of an on-call rotation to assist finding a resolution during incidents
+- host blameless postmortems to share findings, discover gaps, embrace transparency, and improve reliability across our services
+- build positive and collaborative relationships across the company
+- apply my systems knowledge to triage problems and tune resource usage
+- champion automation to reduce toil and increase development velocity
+- demonstrate Configuration Management to build and maintain consistency across services
+- build IaC configs to handle infrastructure in public and private clouds
+- support and improving build pipelines with tools
+- adopt Containers and Kubernetes for new and existing services
+- prefer everything-as-code methodologies across configuration, infrastructure, orchestration, and elsewhere, wherever it makes sense
+- avoid solving the same problems over-and-over- so I automate or eliminate them
+- try to make everyone's job easier by improving workflows
+- help digging through metrics, logs, and whatever else is available to triage and fix an incident on any occasion.
+- find confidence in using older technologies, accepting, that it may not be flawless, but are good enough and low maintenance
+- naturally and organically spread the philosophies and practices of DevOps to others
+- enjoy collaborating with others, share knowledge, and provide feedback
+- self-assess the needs of a system or team, and make a case to prioritize that work
+- relish working with software, network, cloud, and systems engineers to address problems across all tiers of the stack
+
+Outlook: 
+
+- Defining the future of running services for our platforms and games with Kubernetes
+- Supporting our extensive global data platforms across multiple clouds
+- Performing and improving service migrations from one cloud/data center to another
+- Working closely with our partner teams to contribute to shaping how future products should operate
+- Integrating monitoring and logging with systems to improve observability
+- Enable Service-Level Objectives
+- Designing and completing stress tests to validate scale expectations vs reality
+
+
+</details>
+
+### SLOs and SLIs : How do I go about it?
+<details><summary></summary>
+
+- I sit down with stakeholders, come up with statements for the critical things they care about.
+
+- We translate those critical paths into SLIs, by identifying metrics that matter.
+- Get priority and firm handshakes on adding the metrics and other code needed in place to measure these SLIs.
+- We negotiate SLO targets with the team, so that once the SLIs are in place, we can create rules and alerts for them.
+- With SLOs established, SLI's in service to those SLO's in place, metrics and alerts to track them, we then move on into discussing short-term and long-term error budgets. 
+
+---
+### SLO Statement
+"The value for X remains as expected for Y% over Z time-window"
+
+### Rationale
+"X represents as a metric/attribute of key interest because of (specific reason)"
+
+"Y was calculated based on (specific reason)"
+
+"Z is the time-duration in consideration for X because of (specific reason)"
+
+### SLI
+The metric that expresses X is : (some valid metric)
+
+This metric is located in : (dataset/monitoring-platform) and is sourced from (client/server)
+
+### Alert
+This metric triggers an alert if the value is over/under X by (some threshold value) for (some amount of time)
+
+This alert is configured at : (location of the alert based on system)
+</details>
+
+### How do I write my JIRA tickets?
+
+<details><summary></summary>
+
+### Value Statement
+- As an SRE, I would like do X. 
+- This allows our team/stakeholder to do Y 
+- Which brings benefits in terms of Z. 
+
+### Problem Space
+- Currently, we have identified the problem: 
+- This leads to <some effect, undesired>
+- This causes <some specific pain> to <some relevant folks>
+
+### Solution Space
+### Priority: 
+### Stakeholders:
+### Due Date:
+### Definition of Done: Acceptance Criteria
+
+</details>
+
 
 ---
 ### Contact Me
@@ -15,20 +130,21 @@
 
 [<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM8.951 9.404H6.165V17.5H8.95V9.404zm6.841-.192c-1.324 0-1.993.629-2.385 1.156l-.127.181V9.403h-2.786l.01.484c.006.636.007 1.748.005 2.93l-.015 4.683h2.786v-4.522c0-.242.018-.484.092-.657.202-.483.66-.984 1.43-.984.955 0 1.367.666 1.408 1.662l.003.168V17.5H19v-4.643c0-2.487-1.375-3.645-3.208-3.645zM7.576 5.5C6.623 5.5 6 6.105 6 6.899c0 .73.536 1.325 1.378 1.392l.18.006c.971 0 1.577-.621 1.577-1.398C9.116 6.105 8.53 5.5 7.576 5.5z"/></svg> LinkedIn](https://www.linkedin.com/in/shreyasgune/)
 
-[<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>Resume <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>](https://docs.google.com/document/d/e/2PACX-1vQ34wGVtfwf6YL1k4-Dqkit0fB9w3RYmAKCCc4-vvViSYFzaUVe3zrp3SOSVr7GoPrNoN9G0dMcwDyn/pub)
+[<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>Resume <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>](docs/sgune_2024.pdf)
 
 <br>
 
 ---
 # Site Reliability Engineering
-### [SLO Worksheet](SLO_Worksheet.docx)
-### [Postmortem Overviews](post-mortem-overview.pdf)
+
+### [SLO Worksheet](docs/SLO_Worksheet.docx)
+### [Postmortem Overviews](docs/post-mortem-overview.pdf)
 ### Futurestack 2019
  - [Slides](https://drive.google.com/file/d/1UXyxhvGFfS6nuh8u4dn5nu5bkD64svPK/view)
  - [Demo Video](https://youtu.be/1iXjx2NOBJY)
 
 ## Mesh
-### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2024 update</sup>
+### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;">slated for 2024 update</sup>
 ### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
 
 ## Monitoring, Logs and Alerting
@@ -110,11 +226,13 @@
 ---
 
 ### Social
-[<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><path d="M12 0c6.6274 0 12 5.3726 12 12s-5.3726 12-12 12S0 18.6274 0 12 5.3726 0 12 0zm3.115 4.5h-6.23c-2.5536 0-4.281 1.6524-4.3805 4.1552L4.5 8.8851v6.1996c0 1.3004.4234 2.4193 1.2702 3.2359.7582.73 1.751 1.1212 2.8818 1.1734l.2633.006h6.1694c1.3004 0 2.389-.4234 3.1754-1.1794.762-.734 1.1817-1.7576 1.2343-2.948l.0056-.2577V8.8851c0-1.2702-.4234-2.3589-1.2097-3.1452-.7338-.762-1.7575-1.1817-2.9234-1.2343l-.252-.0056zM8.9152 5.8911h6.2299c.9072 0 1.6633.2722 2.2076.8166.4713.499.7647 1.1758.8103 1.9607l.0063.2167v6.2298c0 .9375-.3327 1.6936-.877 2.2077-.499.4713-1.176.7392-1.984.7806l-.2237.0057H8.9153c-.9072 0-1.6633-.2722-2.2076-.7863-.499-.499-.7693-1.1759-.8109-2.0073l-.0057-.2306V8.885c0-.9073.2722-1.6633.8166-2.2077.4712-.4713 1.1712-.7392 1.9834-.7806l.2242-.0057h6.2299-6.2299zM12 8.0988c-2.117 0-3.871 1.7238-3.871 3.871A3.8591 3.8591 0 0 0 12 15.8408c2.1472 0 3.871-1.7541 3.871-3.871 0-2.117-1.754-3.871-3.871-3.871zm0 1.3911c1.3609 0 2.4798 1.119 2.4798 2.4799 0 1.3608-1.119 2.4798-2.4798 2.4798-1.3609 0-2.4798-1.119-2.4798-2.4798 0-1.361 1.119-2.4799 2.4798-2.4799zm4.0222-2.3589a.877.877 0 1 0 0 1.754.877.877 0 0 0 0-1.754z"/></svg> @boopable_snoot](https://www.instagram.com/boopable_snoot/)
 [<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mastodon" viewBox="0 0 16 16" id="IconChangeColor"> <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z" id="mainIconPathAttribute" fill="purple"></path> </svg> @boopable_snoot](https://mastodon.social/@sgune)
 
 
 ### Bands and Music
+
+[boopablesnoot album art](albumart/index.html)<sup style="color: green;font-size: 12px;">NEW!</sup>
+
 [<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" id="IconChangeColor" height="20" width="20"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z" id="mainIconPathAttribute" fill="orange"></path></svg> The Shrubs](https://soundcloud.com/shrubs-zazz)
 
 [<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="IconChangeColor" height="20" width="20"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm48.2,326.1h-181L207.9,178h181Z" id="mainIconPathAttribute" fill="#03989e"></path></svg> Stereosiren](https://stereosiren.bandcamp.com/)
