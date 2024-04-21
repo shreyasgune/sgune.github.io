@@ -6,12 +6,21 @@
 - Which brings benefits in terms of Z. 
 
 ### Problem Space
-- Currently, we have identified the problem: 
-- This leads to <some effect, undesired>
-- This causes <some specific pain> to <some relevant folks>
+- Currently, we have identified the problem: (some problem)
+- This leads to (some effect, undesired)
+- This causes (some specific pain) to (some relevant folks)
 
 ### Solution Space
-### Priority: 
+### Priority:
+- Based on (some shared reasons), this ticket has been prioritized to be worked on. 
 ### Stakeholders:
+- Engineers
+- Leads
+- Other relevant personnel
 ### Due Date:
-### Definition of Done: Acceptance Criteria
+### Definition of Done:
+This ticket is considered done when Z achieved through implementation of the solution space.
+### Acceptance Criteria: 
+ - Criteria 1
+ - Criteria 2
+ - Criteria N
