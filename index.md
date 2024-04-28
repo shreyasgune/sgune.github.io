@@ -7,6 +7,20 @@
 # Shreyas Gune
 #### Senior Site Reliability Engineer
 
+### Mission Statement
+To run games, on machines (GCP, Azure, AWS, Openstack, bare-metal) - leveraging the hardware and software features available for the determined SKU (pre-analysis done to make that selection justified) in a secure (via policies, secrets management and networking acls) and cost-optimized manner (frugal, by looking at toolset available and rationalizing what tool is the best fit for the job). A big part of that is keeping business value in focus, at all times.
+
+
+This also means understanding, architecture , instrumenting and maintaining the said services via practices like pipeline management, Infrastructure as Code, config management, capacity planning, autoscaling, cost-optimization, automation (where it makes sense), and the triumvirate of:  SLO, SLI and Error Budgets. This is all in service to establishing a balanced approach to feature development versus reliability
+
+### What I wish to mitigate
+- Tech Debt
+- Convoluted Design Patterns
+- Plaintext credentials
+- Scope Creep
+- Underutilized Resources
+- Cloud Contract based tool dependency. A cloud agnostic approach is preferable, but I like to look at it on a case by case basis.
+
 ### [What I do](docs/what_i_do.md)
 
 
