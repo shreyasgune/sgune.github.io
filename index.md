@@ -1,8 +1,6 @@
-
-
-# [Hello There!](https://styles.redditmedia.com/t5_trfed/styles/profileIcon_m9xujdjs2fg51.jpg?width=256&height=256&crop=256:256,smart&s=fb9cd0ea808a8783a8c738e4466c52c372125280), Välkommen
-
 ---
+---
+[Hello There!](https://styles.redditmedia.com/t5_trfed/styles/profileIcon_m9xujdjs2fg51.jpg?width=256&height=256&crop=256:256,smart&s=fb9cd0ea808a8783a8c738e4466c52c372125280), Välkommen
 
 # Shreyas Gune
 #### Senior Site Reliability Engineer
@@ -57,7 +55,7 @@ This also means understanding, architecture , instrumenting and maintaining the 
 ## Monitoring, Logs and Alerting
 ### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
 ### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [Install Logging Agent](install-logging-agent.md)
+### [Install Logging Agent](docs/install-logging-agent.md)
 
 ## Distributed Systems
 ### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
