@@ -7,38 +7,44 @@
 
 ### Mission Statement
 
-<b>Efficient and Secure Software Execution</b>: 
+#### <b>Efficient and Secure Software Execution</b>: 
 - Run applications (games, tools, apps) on various infrastructures
     - GCP, 
     - Azure, 
     - AWS,
     - Openstack,
     - Alibaba Cloud
-    - and bare-metal)
+    - and bare-metal
 - Leveraging hardware and software features based on thorough pre-analysis to select the optimal SKU
 
-<b>Security Focus</b>: 
+#### <b>Security Focus</b>: 
+
 Ensure secure execution through the use of 
 - robust policies, 
 - secrets management, 
 - and networking access controls (ACLs)
 
-<b>Cost Optimization</b>: 
+#### <b>Cost Optimization</b>: 
 - Achieve cost efficiency by evaluating and selecting the best-fit tools for each task, 
 - focusing on frugality and leveraging available resources effectively
 
-<b>Business Value Orientation</b>: 
+#### <b>Business Value Orientation</b>: 
 - Maintain a consistent focus on delivering business value at every stage of the process.
 - Ensuring firm handshakes between all stakeholders involved
 
-<b>Service Design, Instrumentation, and Maintenance</b>: Architect, instrument, and manage services through practices like - Pipeline Management, 
+#### <b>Service Design, Instrumentation, and Maintenance</b>:
+
+Architect, instrument, and manage services through practices like
+
+- Pipeline Management, 
 - Infrastructure as Code (IaC), 
 - Configuration management, 
 - Capacity planning, 
 - Autoscaling, 
 - and Automation (where applicable)
 
-<b>Reliability and Feature Balance</b>: 
+#### <b>Reliability and Feature Balance</b>: 
+
 Apply key principles like 
 - Service Level Objectives (SLOs), 
 - Service Level Indicators (SLIs), 
@@ -48,27 +54,27 @@ Apply key principles like
     - system reliability
 
 ### Areas of Focus for Mitigation
-<b>Technical Debt</b>: 
+#### <b>Technical Debt</b>: 
 - Address and reduce accumulated technical debt 
 - <i>to improve system maintainability and scalability</i>
 
-<b>Complex or Inefficient Design Patterns</b>: 
+#### <b>Complex or Inefficient Design Patterns</b>: 
 - Simplify and streamline design patterns 
 - <i>to enhance system clarity and performance</i>
 
-<b>Plaintext Credentials</b>: 
+#### <b>Plaintext Credentials</b>: 
 - Eliminate the use of plaintext credentials 
 - <i>to ensure robust security practices and minimize risk</i>
 
-<b>Scope Creep</b>: 
+#### <b>Scope Creep</b>: 
 - Prevent and manage scope creep 
 - <i>to ensure project timelines, objectives, and resources remain aligned with initial goals</i>
 
-<b>Underutilized Resources</b>: 
+#### <b>Underutilized Resources</b>: 
 - Optimize resource utilization 
 - <i>to ensure efficiency and cost-effectiveness across the system</i>
 
-<b>Cloud Vendor Dependency</b>: 
+#### <b>Cloud Vendor Dependency</b>: 
 - Minimize reliance on cloud-specific tools by adopting a cloud-agnostic approach where feasible, while evaluating each case individually 
 - <i>to determine the most appropriate solution</i>
 
