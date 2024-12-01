@@ -3,21 +3,36 @@
 [Hello There!](https://styles.redditmedia.com/t5_trfed/styles/profileIcon_m9xujdjs2fg51.jpg?width=256&height=256&crop=256:256,smart&s=fb9cd0ea808a8783a8c738e4466c52c372125280), Välkommen
 
 # Shreyas Gune
-#### Senior Site Reliability Engineer
+## Senior Site Reliability Engineer
 
 ### Mission Statement
-To run software (games, apps, or tools), on machines (GCP, Azure, AWS, Openstack, bare-metal) - leveraging the hardware and software features available for the determined SKU (pre-analysis done to make that selection justified) in a secure (via policies, secrets management and networking acls) and cost-optimized manner (frugal, by looking at toolset available and rationalizing what tool is the best fit for the job). A big part of that is keeping business value in focus, at all times.
 
+<b>Efficient and Secure Software Execution</b>: 
+Run applications (games, tools, apps) on various infrastructures (GCP, Azure, AWS, Openstack, bare-metal), leveraging hardware and software features based on thorough pre-analysis to select the optimal SKU.
 
-This also means understanding, architecture , instrumenting and maintaining the said services via practices like pipeline management, Infrastructure as Code, config management, capacity planning, autoscaling, cost-optimization, automation (where it makes sense), and the triumvirate of:  SLO, SLI and Error Budgets. This is all in service to establishing a balanced approach to feature development versus reliability
+<b>Security Focus</b>: 
+Ensure secure execution through the use of robust policies, secrets management, and networking access controls (ACLs).
 
-### What I wish to mitigate
-- Tech Debt
-- Convoluted Design Patterns
-- Plaintext credentials
-- Scope Creep
-- Underutilized Resources
-- Cloud Contract based tool dependency. A cloud agnostic approach is preferable, but I like to look at it on a case by case basis.
+<b>Cost Optimization</b>: Achieve cost efficiency by evaluating and selecting the best-fit tools for each task, focusing on frugality and leveraging available resources effectively.
+
+<b>Business Value Orientation</b>: Maintain a consistent focus on delivering business value at every stage of the process.
+
+<b>Service Design, Instrumentation, and Maintenance</b>: Architect, instrument, and manage services through practices like pipeline management, Infrastructure as Code (IaC), configuration management, capacity planning, autoscaling, and automation where applicable.
+
+<b>Reliability and Feature Balance</b>: Apply key principles like Service Level Objectives (SLOs), Service Level Indicators (SLIs), and Error Budgets to maintain an optimal balance between feature development and system reliability.
+
+### Areas of Focus for Mitigation
+<b>Technical Debt</b>: Address and reduce accumulated technical debt to improve system maintainability and scalability.
+
+<b>Complex or Inefficient Design Patterns</b>: Simplify and streamline design patterns to enhance system clarity and performance.
+
+<b>Plaintext Credentials</b>: Eliminate the use of plaintext credentials to ensure robust security practices and minimize risk.
+
+<b>Scope Creep</b>: Prevent and manage scope creep to ensure project timelines, objectives, and resources remain aligned with initial goals.
+
+<b>Underutilized Resources</b>: Optimize resource utilization to ensure efficiency and cost-effectiveness across the system.
+
+<b>Cloud Vendor Dependency</b>: Minimize reliance on cloud-specific tools by adopting a cloud-agnostic approach where feasible, while evaluating each case individually to determine the most appropriate solution.
 
 ### [What I do](docs/what_i_do.md)
 
@@ -28,6 +43,8 @@ This also means understanding, architecture , instrumenting and maintaining the 
 ### [How do I write my JIRA tickets?](docs/jira_method.md)
 
 
+## ACTIVE PROJECT <sup style="color: green;font-size: 10px;">currently in progress</sup> : 
+[Game Design using SFML and ECS Paradigms](https://github.com/shreyasgune/see_plus_plus/blob/gamer_g/gamez/notes.md)
 ---
 
 ### Contact Me
@@ -35,7 +52,7 @@ This also means understanding, architecture , instrumenting and maintaining the 
 
 [<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#ffffff"><path d="M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zM8.951 9.404H6.165V17.5H8.95V9.404zm6.841-.192c-1.324 0-1.993.629-2.385 1.156l-.127.181V9.403h-2.786l.01.484c.006.636.007 1.748.005 2.93l-.015 4.683h2.786v-4.522c0-.242.018-.484.092-.657.202-.483.66-.984 1.43-.984.955 0 1.367.666 1.408 1.662l.003.168V17.5H19v-4.643c0-2.487-1.375-3.645-3.208-3.645zM7.576 5.5C6.623 5.5 6 6.105 6 6.899c0 .73.536 1.325 1.378 1.392l.18.006c.971 0 1.577-.621 1.577-1.398C9.116 6.105 8.53 5.5 7.576 5.5z"/></svg>LinkedIn](https://www.linkedin.com/in/shreyasgune/)
 
-[<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>Resume <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>](docs/sgune_2024.pdf)
+[<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>Resume <sup style="color: green;font-size: 12px;">2024</sup>](docs/sgune_2024.pdf)
 
 <br>
 
@@ -44,18 +61,21 @@ This also means understanding, architecture , instrumenting and maintaining the 
 
 ### [SLO Worksheet](docs/SLO_Worksheet.docx)
 ### [Postmortem Overviews](docs/post-mortem-overview.pdf)
-### Futurestack 2019
+<!-- ### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
+### [Handwritten Monitoring and Service Mesh Notes](docs/notes/sgune_red_notes.pdf) -->
+### [Experience Letters](docs/experience/)
+### Tech talk given at Futurestack 2019
  - [Slides](https://drive.google.com/file/d/1UXyxhvGFfS6nuh8u4dn5nu5bkD64svPK/view)
  - [Demo Video](https://youtu.be/1iXjx2NOBJY)
 
 ## Mesh
-### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;">slated for 2024 update</sup>
-### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;">slated for 2025 update</sup>
+### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
 
 ## Monitoring, Logs and Alerting
 ### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
-### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [Install Logging Agent](docs/install-logging-agent.md)
+### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### [Install Logging Agent](docs/notes/install-logging-agent.md)
 
 ## Distributed Systems
 ### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
@@ -71,7 +91,7 @@ This also means understanding, architecture , instrumenting and maintaining the 
 
 ## CI/CD
 ### [Git-CI](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
 
 
 ## Kubernetes
@@ -89,7 +109,7 @@ This also means understanding, architecture , instrumenting and maintaining the 
 ### [Rust and WebAssembly](https://github.com/shreyasgune/rust-webasm)
 ### [gRPC](https://github.com/shreyasgune/gRPC-demo)
 ### [New Relic Alert Manager](https://github.com/shreyasgune/newrelic-alerts-manager)
-### [Rick and Morty AIY Voicekit Project](https://github.com/shreyasgune/RickSounds)<sup style="color: orange;font-size: 12px;"> Archived</sup>
+### [Rick and Morty AIY Voicekit Project](https://github.com/shreyasgune/RickSounds)<sup style="color: grey;font-size: 12px;"> Archived</sup>
 ### [PyScripts for MS Excel](https://github.com/shreyasgune/fitter-happier-excel)
 
 ---
