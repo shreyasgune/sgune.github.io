@@ -106,7 +106,7 @@ Apply key principles like
 ### [SLO Worksheet](docs/SLO_Worksheet.docx)
 ### [Postmortem Overviews](docs/post-mortem-overview.pdf)
 ### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
-### [Handwritten Monitoring and Service Mesh Notes](docs/notes/sgune_red_notes.pdf)
+<!-- ### [Handwritten Monitoring and Service Mesh Notes](docs/notes/sgune_red_notes.pdf) -->
 ### [Experience Letters](docs/experience/)
 ### Tech talk given at Futurestack 2019
  - [Slides](https://drive.google.com/file/d/1UXyxhvGFfS6nuh8u4dn5nu5bkD64svPK/view)
