@@ -116,7 +116,7 @@ Apply key principles like
  - [Demo Video](https://youtu.be/1iXjx2NOBJY)
 
 ## Mesh
-### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;">slated for 2025 update</sup>
+### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
 ### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
 
 ## Monitoring, Logs and Alerting
