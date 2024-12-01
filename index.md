@@ -107,7 +107,10 @@ Apply key principles like
 ### [Postmortem Overviews](docs/post-mortem-overview.pdf)
 ### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
 <!-- ### [Handwritten Monitoring and Service Mesh Notes](docs/notes/sgune_red_notes.pdf) -->
-### [Experience Letters](docs/experience/)
+### Experience Letters
+ - [University](docs/experience/university_experience_letter.pdf)
+ - [Apex](docs/experience/apex_experience_letter.pdf)
+ - [USA Today](docs/experience/gannet_experience_letter.pdf)
 ### Tech talk given at Futurestack 2019
  - [Slides](https://drive.google.com/file/d/1UXyxhvGFfS6nuh8u4dn5nu5bkD64svPK/view)
  - [Demo Video](https://youtu.be/1iXjx2NOBJY)
