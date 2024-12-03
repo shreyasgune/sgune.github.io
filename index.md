@@ -6,23 +6,27 @@
 ## Senior Site Reliability Engineer
 
 ### Mission Statement
+- My mission is to design, launch, & manage scalable, cost-efficient live service games and apps in the cloud, 
+- Therby ensuring reliability through automation, monitoring, security, and continuous iterative improvement.
+
+---
+### Key Focus Areas
 
 #### <b>Efficient and Secure Software Execution</b>: 
 - Run applications (games, tools, apps) on various infrastructures
-    - GCP, 
-    - Azure, 
-    - AWS,
+    - Google Cloud Platform, 
+    - Microsoft Azure, 
+    - Amazon Web Services,
     - Openstack,
     - Alibaba Cloud
-    - and bare-metal
-- Leveraging hardware and software features based on thorough pre-analysis to select the optimal SKU
+- Leveraging hardware and software features based on thorough pre-analysis to select the optimal Stock Keeping Unit (SKU).
 
-#### <b>Security Focus</b>: 
+#### <b>Security</b>: 
 
 Ensure secure execution through the use of 
 - robust policies, 
 - secrets management, 
-- and networking access controls (ACLs)
+- and networking access controls lists (ACLs)
 
 #### <b>Cost Optimization</b>: 
 - Achieve cost efficiency by evaluating and selecting the best-fit tools for each task, 
@@ -53,31 +57,33 @@ Apply key principles like
     - feature development
     - system reliability
 
+---
 ### Areas of Focus for Mitigation
 #### <b>Technical Debt</b>: 
 - Address and reduce accumulated technical debt 
-- <i>to improve system maintainability and scalability</i>
+    - <i>to improve system maintainability and scalability</i>
 
 #### <b>Complex or Inefficient Design Patterns</b>: 
 - Simplify and streamline design patterns 
-- <i>to enhance system clarity and performance</i>
+    - <i>to enhance system clarity and performance</i>
 
-#### <b>Plaintext Credentials</b>: 
+#### <b>Exposed Credentials</b>: 
 - Eliminate the use of plaintext credentials 
-- <i>to ensure robust security practices and minimize risk</i>
+    - <i>to ensure robust security practices and minimize risk</i>
 
 #### <b>Scope Creep</b>: 
 - Prevent and manage scope creep 
-- <i>to ensure project timelines, objectives, and resources remain aligned with initial goals</i>
+    - <i>to ensure project timelines, objectives, and resources remain aligned with initial goals</i>
 
 #### <b>Underutilized Resources</b>: 
 - Optimize resource utilization 
-- <i>to ensure efficiency and cost-effectiveness across the system</i>
+    - <i>to ensure efficiency and cost-effectiveness across the system</i>
 
 #### <b>Cloud Vendor Dependency</b>: 
 - Minimize reliance on cloud-specific tools by adopting a cloud-agnostic approach where feasible, while evaluating each case individually 
-- <i>to determine the most appropriate solution</i>
+    - <i>to determine the most appropriate solution</i>
 
+---
 ### [What I do](docs/what_i_do.md)
 
 
@@ -101,22 +107,34 @@ Apply key principles like
 <br>
 
 ---
+### Education
+- <b>Masters Program</b>
+    - <i>University of Texas at Arlington, M.S. in Electrical Engineering</i>
+- <b>Bachelors Program</b>
+    - <i>University of Mumbai, B.E. in Electronics and Telecommunication Engineering</i>
+---
 # Site Reliability Engineering
 
-### [SLO Worksheet](docs/SLO_Worksheet.docx)
-### [Postmortem Overviews](docs/post-mortem-overview.pdf)
-### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
-<!-- ### [Handwritten Monitoring and Service Mesh Notes](docs/notes/sgune_red_notes.pdf) -->
-### Experience Letters
+## Documentation
+#### [SLO Worksheet](docs/SLO_Worksheet.docx)
+#### [Postmortem Overviews](docs/post-mortem-overview.pdf)
+#### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
+---
+### Work History
  - [University](docs/experience/university_experience_letter.pdf)
  - [Apex](docs/experience/apex_experience_letter.pdf)
  - [USA Today](docs/experience/gannet_experience_letter.pdf)
-### Tech talk given at Futurestack 2019
- - [Slides](https://drive.google.com/file/d/1UXyxhvGFfS6nuh8u4dn5nu5bkD64svPK/view)
- - [Demo Video](https://youtu.be/1iXjx2NOBJY)
+---
+### Tech talk at Conference: Futurestack 2019
+ - [Slides](https://docs.google.com/presentation/d/e/2PACX-1vR56Tx58_-J7cBTfjZEldkL1wTg1iPHFsZyQERFYxw3-79q1ZOZPn1v255wNOth9wa18ighj40Xzkl_/pub?start=true&loop=true&delayms=10000)
+ <!-- - [Tech Demo](https://youtu.be/1iXjx2NOBJY) -->
 
-## Mesh
-### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
+
+---
+## Tech Labs and Projects
+
+### Service Mesh
+#### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
 ### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
 
 ## Monitoring, Logs and Alerting
