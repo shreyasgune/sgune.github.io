@@ -108,11 +108,17 @@ Apply key principles like
 
 ---
 ### Education
+
 - <b>Masters Program</b>
-    - <i>University of Texas at Arlington, M.S. in Electrical Engineering</i>
+
+University of Texas at Arlington, M.S. in Electrical Engineering
+
 - <b>Bachelors Program</b>
-    - <i>University of Mumbai, B.E. in Electronics and Telecommunication Engineering</i>
+
+University of Mumbai, B.E. in Electronics and Telecommunication Engineering
+
 ---
+
 # Site Reliability Engineering
 
 ## Documentation
@@ -121,8 +127,11 @@ Apply key principles like
 #### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
 ---
 ### Work History
+
  - [University](docs/experience/university_experience_letter.pdf)
+
  - [Apex](docs/experience/apex_experience_letter.pdf)
+
  - [USA Today](docs/experience/gannet_experience_letter.pdf)
 ---
 ### Tech talk at Conference: Futurestack 2019
