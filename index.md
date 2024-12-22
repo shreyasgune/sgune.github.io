@@ -1,12 +1,16 @@
 ---
 ---
-[Hello There!](https://styles.redditmedia.com/t5_trfed/styles/profileIcon_m9xujdjs2fg51.jpg?width=256&height=256&crop=256:256,smart&s=fb9cd0ea808a8783a8c738e4466c52c372125280), Välkommen
+[Hello There!](https://styles.redditmedia.com/t5_trfed/styles/profileIcon_m9xujdjs2fg51.jpg?width=256&height=256&crop=256:256,smart&s=fb9cd0ea808a8783a8c738e4466c52c372125280)
 
 # Shreyas Gune
 ## Senior Site Reliability Engineer
-- I am a passionate and consistently motivated individual with 8 years of experience in cloud technologies, DevOps and SRE.
 
-- I care about my projects and I am genuinely interested in them. I am capable and willing to teach myself required skills that would help my team's goals as well as my personal and professional growth.
+### Who am I?
+- I am a highly motivated and dedicated professional with 8 years of experience in cloud technologies, DevOps, and Site Reliability Engineering (SRE).
+
+- Deeply committed to the success of my projects and take a genuine interest in their outcomes. 
+
+- Possess a strong ability to self-learn and acquire new skills that contribute to both team objectives and my own personal and professional development.
 
 ### CAREER OBJECTIVE
 
@@ -15,22 +19,28 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ---
 ### [Key Focus Areas](docs/key_focus_areas.md)
-- <b>Efficient and Secure Software Execution, 
+
+- Efficient and Secure Software Execution, 
 - Security, 
 - Cost Optimization, 
 - Business Value Orientation, 
 - Service Design, 
 - Instrumentation, and Maintenance
 - Reliability and Feature Balance
+
 ---
+
 ### [Areas of Focus for Mitigation](docs/mitigation_focus.md)
+
 - Technical Debt
 - Complex or Inefficient Design Patterns
 - Exposed Credentials
 - Scope Creep
 - Underutilized Resources
-- Cloud Vendor Dependency</b>
+- Cloud Vendor Dependency
+
 ---
+
 ### [What I do](docs/what_i_do.md)
 
 
@@ -40,9 +50,11 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ### [How do I write my JIRA tickets?](docs/jira_method.md)
 
 
-## ACTIVE PROJECT <sup style="color: green;font-size: 10px;">currently in progress</sup> : 
-[C++: Game Design using SFML and ECS Paradigms](https://github.com/shreyasgune/see_plus_plus/blob/gamer_g/gamez/notes.md)
-[Terraform: Design Patterns](https://github.com/shreyasgune/terraform-snippets)
+## ACTIVE PROJECT <sup style="color: green;font-size: 10px;">currently in progress</sup> :
+
+- [C++: Game Design using SFML and ECS Paradigms](https://github.com/shreyasgune/see_plus_plus/blob/gamer_g/gamez/notes.md)
+
+- [Terraform: Design Patterns](https://github.com/shreyasgune/terraform-snippets)
 ---
 
 ### Contact Me
@@ -65,56 +77,54 @@ University of Texas at Arlington, M.S. in Electrical Engineering
 
 University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 
----
-
-# Site Reliability Engineering
-
-## Documentation
-#### [SLO Worksheet](docs/SLO_Worksheet.docx)
-#### [Postmortem Overviews](docs/post-mortem-overview.pdf)
-#### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
----
-### Work History
+<!-- ### Work History
 
  - [University](docs/experience/university_experience_letter.pdf)
 
  - [Apex](docs/experience/apex_experience_letter.pdf)
 
- - [USA Today](docs/experience/gannet_experience_letter.pdf)
+ - [USA Today](docs/experience/gannet_experience_letter.pdf) -->
 ---
+<br>
+<br>
+<br>
+
+# Projects  and Notes in Site Reliability Engineering, DevOps, and Cloud Tech
+
 ### Tech talk at Conference: Futurestack 2019
  - [Slides](https://docs.google.com/presentation/d/e/2PACX-1vR56Tx58_-J7cBTfjZEldkL1wTg1iPHFsZyQERFYxw3-79q1ZOZPn1v255wNOth9wa18ighj40Xzkl_/pub?start=true&loop=true&delayms=10000)
  <!-- - [Tech Demo](https://youtu.be/1iXjx2NOBJY) -->
 
+### Documentation
+
+#### [SLO Worksheet](docs/SLO_Worksheet.docx)
+
+#### [Postmortem Overviews](docs/post-mortem-overview.pdf)
+
+#### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
 
 ---
-## Tech Labs and Projects
+<br>
 
-### Service Mesh
-#### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
+## Tech Labs and Projects
+<br>
+
+## Service Mesh
+### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
 ### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
+<br>
 
 ## Monitoring, Logs and Alerting
 ### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
 ### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
 ### [Install Logging Agent](docs/notes/install-logging-agent.md)
+<br>
 
 ## Distributed Systems
 ### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
 ### [Kafka Lab](https://github.com/shreyasgune/kafka-lab)
 ### [Couchbase](https://github.com/shreyasgune/couchbase-moxi)
-
-
-## Cluster Management
-### [Rancher Lab](https://github.com/shreyasgune/rancher-lab)
-### [Open Policy Agent Lab](https://github.com/shreyasgune/OPA-Lab/tree/gangnam-style)
-### [Terraform Snippets](https://github.com/shreyasgune/terraform-snippets) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [dnsmasq in Docker](https://github.com/shreyasgune/dnsmasq-docker)
-
-## CI/CD
-### [Git-CI](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
-
+<br>
 
 ## Kubernetes
 ### [Kubernetes Blue-Green](https://github.com/shreyasgune/k8-blue-green)
@@ -123,7 +133,26 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [Kubernetes Cron](https://github.com/shreyasgune/kubecron-example)
 ### [Cert Manager](https://github.com/shreyasgune/sgune-cert-manager) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
 ### [Canary Deployments](https://github.com/shreyasgune/k8-canary)
----
+<br>
+
+## Security
+### [Open Policy Agent Lab](https://github.com/shreyasgune/OPA-Lab/tree/gangnam-style)
+### Oauth2 with OKTA (OIDC) <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+<br>
+
+## Orchestrations
+### [OpenStack Lab](https://github.com/shreyasgune/OpenStack-Topo-Deployment)
+### [Rancher Lab](https://github.com/shreyasgune/rancher-lab)
+### [Terraform Snippets](https://github.com/shreyasgune/terraform-snippets) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [dnsmasq in Docker](https://github.com/shreyasgune/dnsmasq-docker)
+<br>
+
+## CI/CD
+### [Github Actions](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### ArgoCD <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### Atlantis <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+<br>
 
 ## Dev, Libraries and Helpers
 ### [NS1 Go Library](https://github.com/shreyasgune/NS1-examples/tree/primary)
@@ -133,17 +162,15 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [New Relic Alert Manager](https://github.com/shreyasgune/newrelic-alerts-manager)
 ### [Rick and Morty AIY Voicekit Project](https://github.com/shreyasgune/RickSounds)<sup style="color: grey;font-size: 12px;"> Archived</sup>
 ### [PyScripts for MS Excel](https://github.com/shreyasgune/fitter-happier-excel)
+<br>
 
----
 ## Networking Experiments
-### [OpenStack Lab](https://github.com/shreyasgune/OpenStack-Topo-Deployment)
 ### [Network Simulations](https://github.com/shreyasgune/network-simulations)
 ### [Packet Sniffer](https://github.com/shreyasgune/Packet-Sniffer) <sup style="color: red;font-size: 12px;">Depricated</sup>
 ### [Traffic Monitor](https://github.com/shreyasgune/cloudnetmooc) based on [Assignment](https://www.coursera.org/lecture/cloud-networking/programming-assignment-2-explanation-8LGvU?utm_source=link&utm_medium=page_share&utm_content=vlp&utm_campaign=top_button)
+<br>
 
 ---
-<br>
-<br>
 
 # The Archives
 ### [Thesis: IoT Security](https://github.com/shreyasgune/IoT-Security)
@@ -155,7 +182,6 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [Ruby](https://github.com/shreyasgune/Work-In-Progress-/tree/master/Language%20Exercises/rubydooby-master)
 ### [Python](https://github.com/shreyasgune/PythonProgs)
 ### [Perl](https://github.com/shreyasgune/PerlSite)
-
 <br> 
 
 ## WebDev
@@ -170,6 +196,8 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [PHP MySQL](https://github.com/shreyasgune/PHP_MySQL)
 ### [GeoLocator WebApp](https://github.com/shreyasgune/Shreyas-Geolocator-WebApp)
 ### [albumart](albumart/index.html)
+<br>
+
 ---
 
 ### Social
