@@ -1,6 +1,6 @@
 # What I Do
 
-### I work on making games run cheaper, better and smoother.
+### I work on making applications be cloud native so that they run: cheaper, reliable and performant.
 
 - Service-Level Objectives (SLI, SLO, SLA, Error Budget, Burn Rate)
 - Distributed Systems (architectures, hybrid environments, high-availability)
@@ -17,7 +17,7 @@
 - Networking (triaging, packet loss, routing)
 - Programming (Language Agnostic)
 
-Practices:
+## Practices:
 
 - cultivating broad familiarity with all areas of expertise and specialized expertise relevant areas.
 - follwoing technology trends and industry standards passionately.
@@ -47,7 +47,7 @@ Practices:
 - self-assess the needs of a system or team, and make a case to prioritize that work
 - relish working with software, network, cloud, and systems engineers to address problems across all tiers of the stack
 
-Outlook: 
+## Outlook: 
 
 - Defining the future of running services for our platforms and games with Kubernetes
 - Supporting our extensive global data platforms across multiple clouds

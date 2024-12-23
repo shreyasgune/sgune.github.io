@@ -18,7 +18,7 @@ To lead the design, automation, and management of scalable, secure, and cost-eff
 driving operational excellence through proactive monitoring and innovative DevOps practices
 
 ---
-### [Key Focus Areas](docs/key_focus_areas.md)
+### [Key Focus Areas](docs/key_focus_areas.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
 
 - Efficient and Secure Software Execution, 
 - Security, 
@@ -30,7 +30,7 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ---
 
-### [Areas of Focus for Mitigation](docs/mitigation_focus.md)
+### [Areas of Focus for Mitigation](docs/mitigation_focus.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
 
 - Technical Debt
 - Complex or Inefficient Design Patterns
@@ -41,13 +41,13 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ---
 
-### [What I do](docs/what_i_do.md)
+### [What I do](docs/what_i_do.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
 
 
-### [SLOs and SLIs : How do I go about it?](docs/slo_sli_method.md)
+### [SLOs and SLIs : How do I go about it?](docs/slo_sli_method.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
 
 
-### [How do I write my JIRA tickets?](docs/jira_method.md)
+### [How do I write my JIRA tickets?](docs/jira_method.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
 
 
 ## ACTIVE PROJECT <sup style="color: green;font-size: 10px;">currently in progress</sup> :

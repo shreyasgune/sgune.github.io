@@ -1,5 +1,6 @@
 # What I Do
-### I work to optimize game performance, cost, and reliability.
+
+### I work on making applications be cloud native so that they run: cheaper, reliable and performant.
 
 - Service-Level Objectives: SLI, SLO, SLA, Error Budget, Burn Rate
 - Distributed Systems: Architecture, hybrid environments, high availability
