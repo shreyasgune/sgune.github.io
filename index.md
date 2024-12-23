@@ -132,7 +132,6 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [Couchbase](https://github.com/shreyasgune/couchbase-moxi)
 <br>
 
-##
 
 ## Kubernetes
 ### [Kubernetes Blue-Green](https://github.com/shreyasgune/k8-blue-green)
