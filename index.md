@@ -74,7 +74,7 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ## Service Mesh
 ### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
-### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
+### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
 <br>
 
 ## Distributed Systems
