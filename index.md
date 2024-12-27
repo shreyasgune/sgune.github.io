@@ -17,29 +17,6 @@
 To lead the design, automation, and management of scalable, secure, and cost-efficient cloud-based applications,
 driving operational excellence through proactive monitoring and innovative DevOps practices
 
----
-### [Key Focus Areas](docs/key_focus_areas.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
-
-- Efficient and Secure Software Execution, 
-- Security, 
-- Cost Optimization, 
-- Business Value Orientation, 
-- Service Design, 
-- Instrumentation, and Maintenance
-- Reliability and Feature Balance
-
----
-
-### [Areas of Focus for Mitigation](docs/mitigation_focus.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
-
-- Technical Debt
-- Complex or Inefficient Design Patterns
-- Exposed Credentials
-- Scope Creep
-- Underutilized Resources
-- Cloud Vendor Dependency
-
----
 
 ### [What I do](docs/what_i_do.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
 
@@ -52,9 +29,9 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ## ACTIVE PROJECT <sup style="color: green;font-size: 10px;">currently in progress</sup> :
 
-- [C++: Game Design using SFML and ECS Paradigms](https://github.com/shreyasgune/see_plus_plus/blob/gamer_g/gamez/notes.md)
-
 - [Terraform: Design Patterns](https://github.com/shreyasgune/terraform-snippets)
+- [AI Experiments](https://github.com/shreyasgune/sgune-ai)
+- [Monitoring and Alerting in Kubernetes](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack)
 
 <br>
 ---
@@ -69,69 +46,10 @@ driving operational excellence through proactive monitoring and innovative DevOp
 <br>
 
 ---
-### Education
-
-- <b>Masters Program</b>
-
-University of Texas at Arlington, M.S. in Electrical Engineering
-
-- <b>Bachelors Program</b>
-
-University of Mumbai, B.E. in Electronics and Telecommunication Engineering
-
-<!-- ### Work History
-
- - [University](docs/experience/university_experience_letter.pdf)
-
- - [Apex](docs/experience/apex_experience_letter.pdf)
-
- - [USA Today](docs/experience/gannet_experience_letter.pdf) -->
----
-<br>
-<br>
-<br>
-
-# Projects  and Notes in Site Reliability Engineering, DevOps, and Cloud Tech
-
-### Tech talk at Conference: Futurestack 2019
- - [Slides](https://docs.google.com/presentation/d/e/2PACX-1vR56Tx58_-J7cBTfjZEldkL1wTg1iPHFsZyQERFYxw3-79q1ZOZPn1v255wNOth9wa18ighj40Xzkl_/pub?start=true&loop=true&delayms=10000)
- <!-- - [Tech Demo](https://youtu.be/1iXjx2NOBJY) -->
-
-### Documentation
-
-#### [SLO Worksheet](docs/SLO_Worksheet.docx)
-
-#### [Postmortem Overviews](docs/post-mortem-overview.pdf)
-
-#### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
-
-
----
 <br>
 
 ## Tech Labs and Projects
 <br>
-
-## Service Mesh
-### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
-### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
-<br>
-
-## Monitoring, Logs and Alerting
-### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
-### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
-### [Install Logging Agent](docs/notes/install-logging-agent.md)
-### AlertManager Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
-### Traefik and Fluentd Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
-### Loki Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
-<br>
-
-## Distributed Systems
-### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
-### [Kafka Lab](https://github.com/shreyasgune/kafka-lab)
-### [Couchbase](https://github.com/shreyasgune/couchbase-moxi)
-<br>
-
 
 ## Kubernetes
 ### [Kubernetes Blue-Green](https://github.com/shreyasgune/k8-blue-green)
@@ -140,7 +58,40 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [Kubernetes Cron](https://github.com/shreyasgune/kubecron-example)
 ### [Cert Manager](https://github.com/shreyasgune/sgune-cert-manager) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
 ### [Canary Deployments](https://github.com/shreyasgune/k8-canary)
+### [Kubernetes Ingress](https://github.com/shreyasgune/k8-canary/tree/master/k8s/ingress)
+### [NGINX Ingress](https://github.com/shreyasgune/skaffold-demo/tree/master/ingress-controller)
 <br>
+
+
+## CI/CD
+### [Github Actions](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### ArgoCD <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### Atlantis <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+<br>
+
+## Monitoring, Logs and Alerting
+### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
+### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### [Install Logging Agent](docs/notes/install-logging-agent.md)
+### [Loki Lab](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack/loki-stack)
+### [Tempo Lab](https://github.com/shreyasgune/grafana-tempo)
+### AlertManager Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### Traefik Lab <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### Fluentd Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+<br>
+
+## Service Mesh
+### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
+### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">salted for 2025 update</sup>
+<br>
+
+## Distributed Systems
+### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
+### [Kafka Lab](https://github.com/shreyasgune/kafka-lab)
+### [Couchbase](https://github.com/shreyasgune/couchbase-moxi)
+<br>
+
 
 ## Security
 ### [Open Policy Agent Lab](https://github.com/shreyasgune/OPA-Lab/tree/gangnam-style)
@@ -154,12 +105,6 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [dnsmasq in Docker](https://github.com/shreyasgune/dnsmasq-docker)
 <br>
 
-## CI/CD
-### [Github Actions](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
-### ArgoCD <sup style="color: yellow;font-size: 12px;">coming soon</sup>
-### Atlantis <sup style="color: yellow;font-size: 12px;">coming soon</sup>
-<br>
 
 ## Dev, Libraries and Helpers
 ### [NS1 Go Library](https://github.com/shreyasgune/NS1-examples/tree/primary)
@@ -177,6 +122,8 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [Traffic Monitor](https://github.com/shreyasgune/cloudnetmooc) based on [Assignment](https://www.coursera.org/lecture/cloud-networking/programming-assignment-2-explanation-8LGvU?utm_source=link&utm_medium=page_share&utm_content=vlp&utm_campaign=top_button)
 <br>
 
+## Game Development
+- [C++: Game Design using SFML and ECS Paradigms](https://github.com/shreyasgune/see_plus_plus/blob/gamer_g/gamez/notes.md)
 ---
 
 # The Archives
@@ -205,6 +152,67 @@ University of Mumbai, B.E. in Electronics and Telecommunication Engineering
 ### [albumart](albumart/index.html)
 <br>
 
+---
+<br>
+<br>
+<br>
+
+# Notes and Practices in Site Reliability Engineering, DevOps, and Cloud Tech
+
+### Tech talk at Conference: Futurestack 2019
+ - [Slides](https://docs.google.com/presentation/d/e/2PACX-1vR56Tx58_-J7cBTfjZEldkL1wTg1iPHFsZyQERFYxw3-79q1ZOZPn1v255wNOth9wa18ighj40Xzkl_/pub?start=true&loop=true&delayms=10000)
+ <!-- - [Tech Demo](https://youtu.be/1iXjx2NOBJY) -->
+
+### Documentation
+
+#### [SLO Worksheet](docs/SLO_Worksheet.docx)
+
+#### [Postmortem Overviews](docs/post-mortem-overview.pdf)
+
+#### [Handwritten Kubernetes Notes](docs/notes/sgune_kube_notes.pdf)
+
+---
+
+### [Key Focus Areas](docs/key_focus_areas.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
+
+- Efficient and Secure Software Execution, 
+- Security, 
+- Cost Optimization, 
+- Business Value Orientation, 
+- Service Design, 
+- Instrumentation, and Maintenance
+- Reliability and Feature Balance
+
+---
+
+### [Areas of Focus for Mitigation](docs/mitigation_focus.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
+
+- Technical Debt
+- Complex or Inefficient Design Patterns
+- Exposed Credentials
+- Scope Creep
+- Underutilized Resources
+- Cloud Vendor Dependency
+
+---
+
+### Education
+
+- <b>Masters Program</b>
+
+University of Texas at Arlington, M.S. in Electrical Engineering
+
+- <b>Bachelors Program</b>
+
+University of Mumbai, B.E. in Electronics and Telecommunication Engineering
+
+<!-- ### Work History
+
+ - [University](docs/experience/university_experience_letter.pdf)
+
+ - [Apex](docs/experience/apex_experience_letter.pdf)
+
+ - [USA Today](docs/experience/gannet_experience_letter.pdf) -->
 ---
 
 ### Social
