@@ -43,6 +43,7 @@ driving operational excellence through proactive monitoring and innovative DevOp
 <br>
 
 ## Kubernetes
+### [Azure Kubernetes](https://github.com/shreyasgune/aks)
 ### [Kubernetes Blue-Green](https://github.com/shreyasgune/k8-blue-green)
 ### [Kubernetes Deployment](https://github.com/shreyasgune/kubernetes-deployment) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
 ### [Skaffold Demo](https://github.com/shreyasgune/skaffold-demo)
@@ -51,13 +52,16 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ### [Canary Deployments](https://github.com/shreyasgune/k8-canary)
 ### [Kubernetes Ingress](https://github.com/shreyasgune/k8-canary/tree/master/k8s/ingress)
 ### [NGINX Ingress](https://github.com/shreyasgune/skaffold-demo/tree/master/ingress-controller)
+### Traefik Lab <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### [Cert-Manager on Azure](https://github.com/shreyasgune/aks/tree/main/helm-stuff/bootstraper/charts/cert-manager)
+
 <br>
 
-
 ## CI/CD
-### [Github Actions](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Azure CI/CD using Github Actions](https://github.com/shreyasgune/aks/tree/main/.github/workflows)
+### [Github CI Examples](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
 ### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
-### ArgoCD <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### [ArgoCD](https://github.com/shreyasgune/aks/tree/main/helm-stuff/bootstraper/charts/argocd)
 ### Atlantis <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 <br>
 
@@ -68,7 +72,6 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ### [Loki Lab](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack/loki-stack)
 ### [Tempo Lab](https://github.com/shreyasgune/grafana-tempo)
 ### AlertManager Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
-### Traefik Lab <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 ### Fluentd Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 <br>
 
@@ -80,12 +83,19 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ## Distributed Systems
 ### [Airflow Lab](https://github.com/shreyasgune/airflow-lab)
 ### [Kafka Lab](https://github.com/shreyasgune/kafka-lab)
-### [Couchbase](https://github.com/shreyasgune/couchbase-moxi)
 <br>
 
 
+## Database
+### [Couchbase](https://github.com/shreyasgune/couchbase-moxi)
+### Redis <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### MySQL <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### PostgreSQL <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+<br>
+
 ## Security
 ### [Open Policy Agent Lab](https://github.com/shreyasgune/OPA-Lab/tree/gangnam-style)
+### [Vault](https://github.com/shreyasgune/aks/tree/main/helm-stuff/argocd-managed/vault)
 ### Oauth2 with OKTA (OIDC) <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 <br>
 
@@ -94,6 +104,13 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ### [Rancher Lab](https://github.com/shreyasgune/rancher-lab)
 ### [Terraform Snippets](https://github.com/shreyasgune/terraform-snippets) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
 ### [dnsmasq in Docker](https://github.com/shreyasgune/dnsmasq-docker)
+<br>
+
+
+## Message Bus
+### RabbitMQ <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### Pulsar <sup style="color: yellow;font-size: 12px;">coming soon</sup>
+### Google PubSub <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 <br>
 
 
