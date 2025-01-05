@@ -19,17 +19,17 @@
 To lead the design, automation, and management of scalable, secure, and cost-efficient cloud-based applications,
 driving operational excellence through proactive monitoring and innovative DevOps practices
 
-### [What I do](docs/what_i_do.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
-### [SLOs and SLIs : How do I go about it?](docs/slo_sli_method.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
-### [How do I write my JIRA tickets?](docs/jira_method.md)<sup style="color: yellow;font-size: 10px;">click to learn more</sup>
+### [What I do](docs/what_i_do.md)<sup style="color: yellow;font-size: 10px;"> click to learn more</sup>
+### [SLOs and SLIs : How do I go about it?](docs/slo_sli_method.md)<sup style="color: yellow;font-size: 10px;"> click to learn more</sup>
+### [How do I write my JIRA tickets?](docs/jira_method.md)<sup style="color: yellow;font-size: 10px;"> click to learn more</sup>
 
 ## ACTIVE PROJECTS <sup style="color: green;font-size: 10px;">currently in progress</sup> :
 
-
-- [Prometheus Query Language Lab](https://github.com/shreyasgune/promfana/tree/main/learning)
+- [PROMQL and Alerts Compendium](https://github.com/shreyasgune/promfana/blob/main/promql-alert-compendium.md)<sup style="color: green;font-size: 10px;">NEW!</sup>
+- [Prometheus Query Language Lab](https://github.com/shreyasgune/promfana/tree/main/learning)<sup style="color: green;font-size: 10px;">NEW!</sup>
+- [Monitoring and Alerting in Kubernetes using <b>Prometheus, Grafana, Alertmanager, Tempo</b>](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack)
 - [Terraform: Design Patterns](https://github.com/shreyasgune/terraform-snippets)
 - [AI Experiments](https://github.com/shreyasgune/sgune-ai)
-- [Monitoring and Alerting in Kubernetes using <b>Prometheus, Grafana, Alertmanager, Tempo</b>](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack)
 
 ---
 
@@ -49,10 +49,10 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ## Kubernetes
 ### [Azure Kubernetes](https://github.com/shreyasgune/aks)
 ### [Kubernetes Blue-Green](https://github.com/shreyasgune/k8-blue-green)
-### [Kubernetes Deployment](https://github.com/shreyasgune/kubernetes-deployment) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Kubernetes Deployment](https://github.com/shreyasgune/kubernetes-deployment) <sup style="color: green;font-size: 12px;">actively undergoing 2025 update</sup>
 ### [Skaffold Demo](https://github.com/shreyasgune/skaffold-demo)
 ### [Kubernetes Cron](https://github.com/shreyasgune/kubecron-example)
-### [Cert Manager](https://github.com/shreyasgune/sgune-cert-manager) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Cert Manager](https://github.com/shreyasgune/sgune-cert-manager) <sup style="color: green;font-size: 12px;">actively undergoing 2025 update</sup>
 ### [Canary Deployments](https://github.com/shreyasgune/k8-canary)
 ### [Kubernetes Ingress](https://github.com/shreyasgune/k8-canary/tree/master/k8s/ingress)
 ### [NGINX Ingress](https://github.com/shreyasgune/skaffold-demo/tree/master/ingress-controller)
@@ -63,25 +63,27 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ## CI/CD
 ### [Azure CI/CD using Github Actions](https://github.com/shreyasgune/aks/tree/main/.github/workflows)
-### [Github CI Examples](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
-### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### [Github CI Examples](https://github.com/shreyasgune/git-ci) <sup style="color: green;font-size: 12px;">actively undergoing 2025 update</sup>
+### [Jenkins](https://github.com/shreyasgune/JenkinsToStart) <sup style="color: orange;font-size: 12px;">undergoing for 2025 update</sup>
 ### [ArgoCD](https://github.com/shreyasgune/aks/tree/main/helm-stuff/bootstraper/charts/argocd)
 ### Atlantis <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 <br>
 
 ## Monitoring, Logs and Alerting
 ### [ELK Lab](https://github.com/shreyasgune/ELK-lab)
-### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### [Prometheus + Grafana Lab](https://github.com/shreyasgune/promfana) <sup style="color: orange;font-size: 12px;">undergoing for 2025 update</sup>
 ### [Install Logging Agent](docs/notes/install-logging-agent.md)
 ### [Loki Lab](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack/loki-stack)
 ### [Tempo Lab](https://github.com/shreyasgune/grafana-tempo)
+### [PROMQL and Alerts Compendium](https://github.com/shreyasgune/promfana/blob/main/promql-alert-compendium.md)<sup style="color: green;font-size: 5px;">NEW!</sup>
+### [Prometheus Query Language Lab](https://github.com/shreyasgune/promfana/tree/main/learning)<sup style="color: green;font-size: 5px;">NEW!</sup>
 ### AlertManager Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 ### Fluentd Lab  <sup style="color: yellow;font-size: 12px;">coming soon</sup>
 <br>
 
 ## Service Mesh
-### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> slated for 2025 update</sup>
-### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">slated for 2025 update</sup>
+### [Istio Lab](https://github.com/shreyasgune/istio-lab)<sup style="color: orange; font-size: 12px;"> undergoing for 2025 update</sup>
+### [Consul Lab](https://github.com/shreyasgune/consul-lab) <sup style="color: orange;font-size: 12px;">undergoing for 2025 update</sup>
 <br>
 
 ## Distributed Systems
@@ -106,7 +108,7 @@ driving operational excellence through proactive monitoring and innovative DevOp
 ## Orchestrations
 ### [OpenStack Lab](https://github.com/shreyasgune/OpenStack-Topo-Deployment)
 ### [Rancher Lab](https://github.com/shreyasgune/rancher-lab)
-### [Terraform Snippets](https://github.com/shreyasgune/terraform-snippets) <sup style="color: green;font-size: 12px;">actively undergoing 2024 update</sup>
+### [Terraform Snippets](https://github.com/shreyasgune/terraform-snippets) <sup style="color: green;font-size: 12px;">actively undergoing 2025 update</sup>
 ### [dnsmasq in Docker](https://github.com/shreyasgune/dnsmasq-docker)
 <br>
 
