@@ -25,8 +25,8 @@ driving operational excellence through proactive monitoring and innovative DevOp
 
 ## ACTIVE PROJECTS <sup style="color: green;font-size: 10px;">currently in progress</sup> :
 
-- [Product Roadmap for Observability]()
-    - [Gantt Chart and Table](docs/notes/observability_product_roadmap/ganttchart.html)
+- [Product Roadmap for Observability](docs/notes/observability_product_roadmap/Product%20Roadmap%20_%20Observability%20Initiative_sgune.pdf)<sup style="color: green;font-size: 10px;"> NEW!</sup>
+    - [Observability Gantt Chart and Table](docs/notes/observability_product_roadmap/ganttchart.html)
 - [PROMQL and Alerts Compendium](https://github.com/shreyasgune/promfana/blob/main/promql-alert-compendium.md)<sup style="color: green;font-size: 10px;">NEW!</sup>
 - [Prometheus Query Language Lab](https://github.com/shreyasgune/promfana/tree/main/learning)<sup style="color: green;font-size: 10px;">NEW!</sup>
 - [Monitoring and Alerting in Kubernetes using <b>Prometheus, Grafana, Alertmanager, Tempo</b>](https://github.com/shreyasgune/promfana/tree/main/monitoring-stack)
