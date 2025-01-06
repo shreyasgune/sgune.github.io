@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add Google Font (Roboto) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load('current', {'packages':['gantt']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('string', 'Task ID');
+      data.addColumn('string', 'Task Name');
+      data.addColumn('string', 'Resource');
+      data.addColumn('date', 'Start Date');
+      data.addColumn('date', 'End Date');
+      data.addColumn('number', 'Duration');
+      data.addColumn('number', 'Percent Complete');
+      data.addColumn('string', 'Dependencies');
+
+      data.addRows([
+        ['1', 'Tool Selection and Setup', 'Phase 1', new Date(2005, 0, 7), new Date(2005, 0, 20), 13, 100, null],
+        ['2', 'Centralized Log aggregation', 'Phase 1', new Date(2005, 0, 16), new Date(2005, 1, 14), 29, 100, null],
+        ['3', 'Basic Metric Collection', 'Phase 1', new Date(2005, 0, 16), new Date(2005, 1, 14), 29, 100, null],
+        ['4', 'Threshold-Based Alerting', 'Phase 1', new Date(2005, 0, 18), new Date(2005, 1, 18), 31, 100, null],
+        ['5', 'Initial Dashboards', 'Phase 1', new Date(2005, 1, 14), new Date(2005, 2, 7), 21, 100, null],
+        ['6', 'Log Format Standardization', 'Phase 2', new Date(2005, 2, 8), new Date(2005, 2, 21), 13, 100, null],
+        ['7', 'SLOs and SLIs', 'Phase 2', new Date(2005, 2, 8), new Date(2005, 2, 21), 13, 100, null],
+        ['8', 'Correlations', 'Phase 2', new Date(2005, 2, 3), new Date(2005, 3, 11), 39, 100, null],
+        ['9', 'Alert Tuning', 'Phase 2', new Date(2005, 2, 8), new Date(2005, 3, 22), 45, 100, null],
+        ['10', 'Incident Management', 'Phase 2', new Date(2005, 3, 18), new Date(2005, 3, 30), 12, 100, null],
+        ['11', 'Distributed Tracing', 'Phase 3', new Date(2005, 4, 2), new Date(2005, 4, 13), 11, 100, null],
+        ['12', 'RCA Automation', 'Phase 3', new Date(2005, 4, 2), new Date(2005, 4, 23), 21, 100, null],
+        ['13', 'Custom Dashboards', 'Phase 3', new Date(2005, 4, 16), new Date(2005, 4, 30), 14, 100, null],
+        ['14', 'Integration with Business Metrics', 'Phase 3', new Date(2005, 5, 1), new Date(2005, 5, 14), 13, 100, null]
+      ]);
+
+      var options = {
+        height: 500,
+        gantt: {
+          trackHeight: 30,
+          fontName: 'Roboto',
+          fontSize: 12
+        }
+      };
+
+      var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+      chart.draw(data, options);
+
+      // Dynamically create a table with the same data
+      createTable();
+    }
+
+    function createTable() {
+      const tableData = [
+        ['Tool Selection and Setup', 'Phase 1', '07/01/2005', '20/01/2005', '13'],
+        ['Centralized Log aggregation', 'Phase 1', '16/01/2005', '14/02/2005', '29'],
+        ['Basic Metric Collection', 'Phase 1', '16/01/2005', '14/02/2005', '29'],
+        ['Threshold-Based Alerting', 'Phase 1', '18/01/2005', '18/02/2005', '31'],
+        ['Initial Dashboards', 'Phase 1', '14/02/2005', '07/03/2005', '21'],
+        ['Log Format Standardization', 'Phase 2', '08/03/2005', '21/03/2005', '13'],
+        ['SLOs and SLIs', 'Phase 2', '08/03/2005', '21/03/2005', '13'],
+        ['Correlations', 'Phase 2', '03/03/2005', '11/04/2005', '39'],
+        ['Alert Tuning', 'Phase 2', '08/03/2005', '22/04/2005', '45'],
+        ['Distributed Tracing', 'Phase 3', '02/05/2005', '13/05/2005', '10'],
+        ['RCA Automation', 'Phase 3', '02/05/2005', '23/05/2005', '16'],
+        ['Custom Dashboards', 'Phase 3', '16/05/2005', '30/05/2005', '11'],
+        ['Integration with Business Metrics', 'Phase 3', '01/06/2005', '14/06/2005', '10']
+      ];
+
+      const table = document.getElementById('data_table');
+      const tbody = table.querySelector('tbody');
+      
+      // Loop through data and create rows
+      tableData.forEach(rowData => {
+        const row = document.createElement('tr');
+        rowData.forEach(cellData => {
+          const cell = document.createElement('td');
+          cell.textContent = cellData;
+          row.appendChild(cell);
+        });
+        tbody.appendChild(row);
+      });
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 700;
+      color: #333;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Product Roadmap: Observability Gantt Chart and Data Table</h1>
+  <h3>Author: Shreyas Gune (sgune@protonmail.com)</h3>
+
+  <!-- Gantt Chart -->
+  <div id="chart_div" style="width: 900px; height: 500px;"></div>
+
+  <!-- Data Table -->
+  <table id="data_table">
+    <thead>
+      <tr>
+        <th>Task Name</th>
+        <th>Phase</th>
+        <th>Start Date</th>
+        <th>Due Date</th>
+        <th>Days</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Data rows will be inserted dynamically here -->
+    </tbody>
+  </table>
+</body>
+</html>
